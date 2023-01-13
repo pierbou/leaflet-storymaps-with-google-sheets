@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans:wght@700&display=swap');
 
-
-
 body {
   padding: 0px;
   margin: 0px;
@@ -10,7 +8,7 @@ body {
 }
 
 #map {
-  height: 300px;
+  height: 200px;
   width: 100vw;
   position: absolute;
   border-bottom: 3px solid orange;
@@ -20,9 +18,9 @@ body {
 
 #narration {
   position: absolute;
-  top: 303px;
+  top: 203px;
   width: 100vw;
-  height: calc(100vh - 303px);
+  height: calc(100vh - 203px);
   z-index: 80;
 }
 
@@ -65,7 +63,7 @@ body {
   /* margin + padding = chapterContainerMargin in script.js */
   /* Important for scrolling! */
   margin: 50px 0 0 0;
-  padding: 2.5vh 0;
+  padding: 20px 0 0 0;
   text-align: center;
 }
 
@@ -118,7 +116,7 @@ a.source:visited {
 .description {
   margin: 20px;
   text-align: left;
-  font-size: 13pt;
+  font-size: 11pt;
   padding: 20px;
 }
 
@@ -148,8 +146,8 @@ a.source:visited {
 
 /* Storymap logo image above the title */
 #logo {
-  height: 80px;
-  line-height: 80px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
   padding: 10px;
   max-width: 100%;
